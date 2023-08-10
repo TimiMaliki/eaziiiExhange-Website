@@ -14,23 +14,24 @@ import rich from "../assets/Imagies/rich.jpg"
 const About = () => {
   return (
     <SimpleGrid
-      minChildWidth="300px"
-      p="10px"
+      minChildWidth="250px"
+      padding="0px 40px"
       marginTop="2rem"
       alignItems="center"
-      marginBottom="2rem"
     >
-      <Box h="430px" alignItems="center" textAlign="center">
+      <Box h="570px" alignItems="center" textAlign="start">
         <Text
           as="p"
           fontSize={{ base: "4xl", md: "6xl", lg: "7xl" }}
           fontWeight="extrabold"
           color="blackAlpha.900"
+          alignItems="center" textAlign="center"
         >
 
           Sell Gift Cards & Cryptocurrencies for Instant Cash.
+          <img src={rich} width="100px" height="100px" />
         </Text>
-        <img src={rich} width="100px" height="100px" />
+      
         <Text
           as="p"
           fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
