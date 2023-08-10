@@ -7,6 +7,7 @@ import {
   SimpleGrid,
   Text,
 } from "@chakra-ui/react";
+import {FaWhatsapp} from 'react-icons/fa'
 import React from "react";
 import phone from "../assets/Imagies/phone.png";
 import rich from "../assets/Imagies/rich.jpg"
@@ -25,11 +26,15 @@ const About = () => {
           fontSize={{ base: "4xl", md: "6xl", lg: "7xl" }}
           fontWeight="extrabold"
           color="blackAlpha.900"
-          alignItems="center" textAlign="center"
+          alignItems="center" 
+          textAlign="center"
         >
 
           Sell Gift Cards & Cryptocurrencies for Instant Cash.
+          <div className="flex">
           <img src={rich} width="100px" height="100px" />
+          </div>
+        
         </Text>
       
         <Text
@@ -42,12 +47,17 @@ const About = () => {
             and Cryptocurrencies
           </p>
         </Text>
-         <button className="btn">Start Trading</button>
+        <div className="flex">
+        <button className="btn">Start Trading
+         <FaWhatsapp/>
+         </button>
+        </div>
+       
        
       </Box>
 
       <Box h="200px">
-        <img src={phone} width="80%"></img>
+        <img src={phone} width="90%"></img>
       </Box>
     </SimpleGrid>
   );

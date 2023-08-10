@@ -67,7 +67,12 @@ nav .menu span {
     height: 45px;
     border-radius: 9px;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
+
 @media (max-width: 800px) {
     nav .menu {
         display: flex;
