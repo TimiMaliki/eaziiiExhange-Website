@@ -9,8 +9,8 @@ const Misconcept = () => {
       textAlign={{base:"center", md:"center", lg:"center"}}
       alignItems="item"
       placeContent={{base:"center", md:"center"}}
-       padding="60px"
-       marginTop="6rem"
+       padding="0px 60px"
+       marginTop={{base:"7rem" , md: "7rem", lg:"4rem"}}
     >
       <Text marginBottom="3rem">
         <Text fontSize="5xl" fontWeight="extrabold">5mins</Text>
