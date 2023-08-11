@@ -97,6 +97,9 @@ h2{
     font-size: 19px;
     font-weight: bold;
 }
+/* img{
+    border: 2px solid blue;
+} */
 
 @media (max-width: 800px) {
     nav .menu {
@@ -127,28 +130,4 @@ h2{
     nav ul li a {
         margin: 0.2rem 0.5rem;
     }
-    /* .mis{
-        display: grid;
-        place-content: center;
-        text-align: center;
-        margin-top: 9rem;
-    } */
 }
-/* 
-@media (max-width: 780px) {
-    .mis{
-        display: grid;
-        place-content: center;
-        text-align: center;
-        margin-top: 7rem;
-    }
-}
-
-@media (max-width: 580px) {
-    .mis{
-        display: grid;
-        place-content: center;
-        text-align: center;
-        margin-top: 7rem;
-    }
-} */

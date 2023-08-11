@@ -36,21 +36,3 @@ const Misconcept = () => {
 };
 
 export default Misconcept;
-{
-  /* <div className="mis">
-//       <div className="conduct">
-//         <h2>5mins</h2>
-//         <p>Delay</p>
-//       </div>
-
-//       <div>
-//         <h2>0</h2>
-//         <p>scamming report</p>
-//       </div>
-
-//       <div>
-//         <h2>0</h2>
-//         <p>ripping</p>
-//       </div>
-//    </div> */
-}

@@ -15,11 +15,12 @@ const Navbar = () => {
   return (
     <Flex
       as="nav"
-      p="30px"
+      p="20px"
       alignItems="center"
       textAlign="center"
       justify="space-between"
       position="sticky"
+      borderRadius="14px"
     >
       <Heading as="h1" cursor="pointer">
         EaziExchange
