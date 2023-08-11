@@ -1,12 +1,7 @@
-import {
-  Box,
-  SimpleGrid,
-  Text,
-} from "@chakra-ui/react";
-import {FaWhatsapp} from 'react-icons/fa'
+import { Box, SimpleGrid, Text } from "@chakra-ui/react";
+import { FaWhatsapp } from "react-icons/fa";
 import React from "react";
 import phone from "../assets/Imagies/phone.png";
-import rich from "../assets/Imagies/rich.jpg"
 
 const Hero = () => {
   return (
@@ -23,17 +18,12 @@ const Hero = () => {
           fontSize={{ base: "4xl", md: "6xl", lg: "7xl" }}
           fontWeight="extrabold"
           color="blackAlpha.900"
-          alignItems="center" 
+          alignItems="center"
           textAlign="center"
         >
-
-          Sell Gift Cards & Cryptocurrencies for Instant Cash.
-          <div className="flex">
-          <img src={rich} width="100px" height="100px" />
-          </div>
-        
+          Sell Gift Cards & Cryptocurrencies for Instant Cash. 🤑
         </Text>
-      
+
         <Text
           as="p"
           fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
@@ -46,15 +36,14 @@ const Hero = () => {
           </p>
         </Text>
         <div className="flex">
-        <button className="btn">Start Trading
-         <FaWhatsapp/>
-         </button>
+          <button className="btn">
+            Start Trading
+            <FaWhatsapp />
+          </button>
         </div>
-       
-       
       </Box>
 
-      <Box h="400px"> 
+      <Box h="400px">
         <img src={phone} width="90%"></img>
       </Box>
     </SimpleGrid>

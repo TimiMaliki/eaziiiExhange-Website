@@ -7,6 +7,7 @@ import About from './components/About'
 import Misconcept from './components/Misconcept'
 import Secure from './components/Secure'
 import  Service from './components/Service'
+import GiftCards from './components/GiftCards'
 import   Faq  from  './components/Faq'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Misconcept/>
     <Secure/>
     <Service/>
+    <GiftCards/>
     <Faq/> 
     </>
   )
