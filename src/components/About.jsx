@@ -4,21 +4,22 @@ import {
     SimpleGrid,
     Text,
   } from "@chakra-ui/react";
+  import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
   import blackHand from "../assets/Imagies/3d.jpg"
 
 const About = () => {
   return (
     <SimpleGrid
-      minChildWidth="200px"
+      minChildWidth="250px"
       marginTop="2rem"
       alignItems="center"
-      padding="80px"
+      padding="50px"
     >
-      <Box h="300px" alignItems="center" textAlign="center" placeContent="center">
+      <Box h="400px" alignItems="center" textAlign="center" placeContent="center">
           <img src={blackHand} alt=""  width="100%" height="200px"/>
       </Box>
 
-      <Box h="200px" alignItems="center" textAlign="center" placeContent="center">
+      <Box h="550px" alignItems="center" textAlign="center" placeContent="center">
 
       <Text as="h3" fontSize="4xl" fontWeight="bold" marginBottom="3rem" >
       We Buy Your Gift Cards & Crypto Currencies For Instant Cash.
@@ -26,7 +27,13 @@ const About = () => {
            <Text as="p" fontSize="2xl">
            We buy Apple iTunes, Google Play, Nordstorm, Steam, Sephora, Amazon, Walmart, Visa, American Express and a lot more from various brands and countries.
            </Text>
+           <Text display="flex" marginTop="1rem" fontSize="4xl" alignItems="start" textAlign="start" placeContent="start" cursor="pointer" gap="2rem">
+           <FaWhatsapp/>
+           <FaInstagram/>
+           </Text>
       </Box>
+
+      
     </SimpleGrid>
   );
 };

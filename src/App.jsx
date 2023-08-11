@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Prop from './components/Prop'
 import Hero from './components/Hero'
 import About from './components/About'
+import Misconcept from './components/Misconcept'
 import  Service from './components/Service'
 import   Faq  from  './components/Faq'
 
@@ -16,6 +17,7 @@ function App() {
     <Hero/>
     <Prop title="About Us" />
     <About/>
+    <Misconcept/>
     <Service/>
     <Faq/> 
     </>

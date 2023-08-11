@@ -14,7 +14,7 @@ const Hero = () => {
       minChildWidth="250px"
       padding="0px 40px"
       alignItems="center"
-      bg="white"
+      bg="whiteAlpha.800"
       marginTop="5rem"
     >
       <Box h="570px" alignItems="center" textAlign="center">
