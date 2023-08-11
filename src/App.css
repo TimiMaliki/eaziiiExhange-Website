@@ -7,7 +7,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
+    background-color:rgb(179, 17, 179);
     color: white;
     top: 0;
 }
@@ -62,15 +62,31 @@ nav .menu span {
 }
 
 .btn{
-    background: purple;
+    background: #000;
     width: 160px;
     height: 45px;
     border-radius: 9px;
-    color: #fff;
+    color: purple;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    font-weight: 400;
+}
+.about{
+     text-align: center;
+     place-content: center;
+     display: grid;
+}
+.divider{
+    border: 2px solid rgb(231, 30, 231);
+    width: 220px;
+}
+img{
+    margin-top: 4rem;
+}
+svg{
+    color: purple;
 }
 
 @media (max-width: 800px) {
