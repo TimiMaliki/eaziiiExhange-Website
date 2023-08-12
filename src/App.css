@@ -77,10 +77,11 @@ nav .menu span {
   text-align: center;
   place-content: center;
   display: grid;
+  color: rgb(255, 77, 255);
 }
 .divider {
   border: 2px solid rgb(231, 30, 231);
-  width: 220px;
+  width: 320px;
 }
 
 svg {

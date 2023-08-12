@@ -1,7 +1,7 @@
 import { Box, SimpleGrid, Text } from "@chakra-ui/react";
 import { FaWhatsapp } from "react-icons/fa";
 import React from "react";
-import phone from "../assets/Imagies/phone.png";
+import whatsapp from "../assets/Imagies/whatsapp.jpg";
 
 const Hero = () => {
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
       </Box>
 
       <Box h="400px">
-        <img src={phone} width="90%"></img>
+        <img src={whatsapp} width="90%"></img>
       </Box>
     </SimpleGrid>
   );

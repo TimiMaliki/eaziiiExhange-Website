@@ -8,6 +8,7 @@ import Misconcept from './components/Misconcept'
 import Secure from './components/Secure'
 import  Service from './components/Service'
 import GiftCards from './components/GiftCards'
+import Offers from './components/Offers'
 import   Faq  from  './components/Faq'
 
 function App() {
@@ -21,8 +22,11 @@ function App() {
     <About/>
     <Misconcept/>
     <Secure/>
-    <Service/>
+    <Prop  title="Services"/>
+    <Service props={<Prop />}/>
     <GiftCards/>
+    <Prop title="Special Offers" />
+    <Offers />
     <Faq/> 
     </>
   )

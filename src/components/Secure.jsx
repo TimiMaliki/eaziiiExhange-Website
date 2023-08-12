@@ -13,7 +13,8 @@ import rate from "../assets/Imagies/rate.jpg";
 
 const Secure = () => {
   return (
-    <SimpleGrid minChildWidth="250px" p="0px 40px" gap="1rem">
+  
+    <SimpleGrid minChildWidth="250px" p="0px 40px" gap="1rem" marginTop="4rem">
       <Card textAlign="center" placeContent="center" position="absolue">
         <CardHeader
           borderRadius="3rem"
