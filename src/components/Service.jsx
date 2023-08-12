@@ -1,5 +1,6 @@
 import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import coin from "../assets/Imagies/coin.jpg";
+import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const Service = () => {
   return (
@@ -26,6 +27,10 @@ const Service = () => {
           we at Geat Exchange are offering you a great means to trade your
           Crypto Currencies.
         </Text>
+        <Text display="flex" marginTop="1rem" fontSize="4xl" alignItems="center" textAlign="center" placeContent="center" cursor="pointer" gap="1rem">
+           <FaWhatsapp color="purple"/>
+           <FaInstagram color="purple"/>
+           </Text>
       </Box>
     </SimpleGrid>
   );

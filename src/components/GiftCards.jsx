@@ -1,5 +1,6 @@
 import { Box, Flex, SimpleGrid, Text } from "@chakra-ui/react";
 import walletCoin from "../assets/Imagies/walletcoin.gif";
+import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const GiftCards = () => {
   return (
@@ -25,6 +26,10 @@ const GiftCards = () => {
           your gift cards to physical cash giving you detailed guides lines and
           great rates.
         </Text>
+        <Text display="flex" marginTop="1rem" fontSize="4xl" alignItems="center" textAlign="center" placeContent="center" cursor="pointer" gap="1rem">
+           <FaWhatsapp color="purple"/>
+           <FaInstagram color="purple"/>
+           </Text>
       </Box>
     </SimpleGrid>
   );

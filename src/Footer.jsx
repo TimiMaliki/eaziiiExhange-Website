@@ -1,5 +1,6 @@
 import { SimpleGrid, Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -11,6 +12,10 @@ const Footer = () => {
           Nordstorm, Steam, Sephora, Amazon, Walmart, Visa, American Express and
           a lot more from various brands and
         </Text>
+        <Text display="flex" marginTop="1rem" fontSize="4xl" alignItems="center" textAlign="center" placeContent="center" cursor="pointer" gap="1rem">
+           <FaWhatsapp color="purple"/>
+           <FaInstagram color="purple"/>
+           </Text>
       </Box>
 
       <Box height="300px" textAlign="center" alignItems="center" marginTop="4rem">

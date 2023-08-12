@@ -27,9 +27,9 @@ const About = () => {
            <Text as="p" fontSize="2xl">
            We buy Apple iTunes, Google Play, Nordstorm, Steam, Sephora, Amazon, Walmart, Visa, American Express and a lot more from various brands and countries.
            </Text>
-           <Text display="flex" marginTop="1rem" fontSize="4xl" alignItems="start" textAlign="start" placeContent="start" cursor="pointer" gap="2rem">
-           <FaWhatsapp/>
-           <FaInstagram/>
+           <Text display="flex" marginTop="1rem" fontSize="4xl" alignItems="start" textAlign="start" placeContent="start" cursor="pointer" gap="1rem">
+           <FaWhatsapp color="purple"/>
+           <FaInstagram color="purple"/>
            </Text>
       </Box>
 
