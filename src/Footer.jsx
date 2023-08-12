@@ -4,7 +4,7 @@ import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <SimpleGrid minChildWidth="250px" bg="black">
+    <SimpleGrid minChildWidth="250px" bg="black" spacing={2}>
       <Box height="300px" textAlign="center" alignItems="center" marginTop="4rem">
         <Heading textColor="white" fontSize="4xl" fontWeight="bold">About</Heading>
         <Text color="gray.100">
