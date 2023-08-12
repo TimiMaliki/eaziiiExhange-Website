@@ -36,6 +36,7 @@ const Contact = () => {
           textAlign="center"
           placeContent="center"
           marginBottom="2rem"
+          gap="2rem"
         >
           <FaPhone color="purple" />
           Phone Number
@@ -58,6 +59,7 @@ const Contact = () => {
           textAlign="center"
           placeContent="center"
           marginBottom="2rem"
+          gap="2rem"
         >
           <FaMailBulk color="purple" />
           Email
