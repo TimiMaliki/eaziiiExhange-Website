@@ -87,17 +87,12 @@ nav .menu span {
 svg {
   color: #000;
 }
-.mis {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 6rem;
-  padding: 0px 70px;
-}
 h2 {
   margin-bottom: 1rem;
   font-size: 19px;
   font-weight: bold;
 }
+
 
 @media (max-width: 800px) {
   nav .menu {

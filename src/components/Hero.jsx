@@ -31,7 +31,7 @@ const Hero = () => {
           marginBottom="1rem"
         >
           <p>
-            Great Exchange provides effortless means of trading all Giftcards
+            Eazi Exchange provides effortless means of trading all Giftcards
             and Cryptocurrencies
           </p>
         </Text>

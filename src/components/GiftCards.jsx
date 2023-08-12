@@ -3,7 +3,7 @@ import walletCoin from "../assets/Imagies/walletcoin.gif";
 
 const GiftCards = () => {
   return (
-    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" minHeight="90vh">
+    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" minHeight="100vh">
       <img
         src={walletCoin}
         width="100%"

@@ -9,6 +9,7 @@ import Secure from './components/Secure'
 import  Service from './components/Service'
 import GiftCards from './components/GiftCards'
 import Offers from './components/Offers'
+import Contact from "./components/Contact"
 import   Faq  from  './components/Faq'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     <GiftCards/>
     <Prop title="Special Offers" />
     <Offers />
+    <Contact />
     <Faq/> 
     </>
   )
