@@ -11,6 +11,7 @@ import GiftCards from './components/GiftCards'
 import Offers from './components/Offers'
 import Contact from "./components/Contact"
 import   Faq  from  './components/Faq'
+import Footer from './Footer'
 
 function App() {
  
@@ -30,6 +31,7 @@ function App() {
     <Offers />
     <Contact />
     <Faq/> 
+    <Footer/>
     </>
   )
 }
