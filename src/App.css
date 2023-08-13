@@ -66,7 +66,7 @@ nav .menu span {
   width: 160px;
   height: 45px;
   border-radius: 9px;
-  color: #000;
+  color: rgb(247, 176, 247);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +86,7 @@ nav .menu span {
 }
 
 svg {
-  color: #000;
+  color: rgb(247, 176, 247);
 }
 h2 {
   margin-bottom: 1rem;
