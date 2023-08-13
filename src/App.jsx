@@ -12,6 +12,7 @@ import Offers from './components/Offers'
 import Contact from "./components/Contact"
 import   Faq  from  './components/Faq'
 import Footer from './Footer'
+import Copyright from './Copyright'
 
 function App() {
  
@@ -32,6 +33,7 @@ function App() {
     <Contact />
     <Faq/> 
     <Footer/>
+    <Copyright/>
     </>
   )
 }

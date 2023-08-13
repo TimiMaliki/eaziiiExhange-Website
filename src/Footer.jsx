@@ -33,6 +33,10 @@ const Footer = () => {
         <Heading  textColor="white" fontSize="4xl" fontWeight="bold">Have any Complaints?</Heading>
         <Text color="gray.100">+234 701 066 2232 infogreatexchange1@gmail.com</Text>
       </Box>
+      <Box height="300px" textAlign="center" alignItems="center" marginTop="4rem">
+        <Heading  textColor="white" fontSize="4xl" fontWeight="bold">Developer</Heading>
+        <Text color="gray.100">@Maliki</Text>
+      </Box>
     </SimpleGrid>
   );
 };
