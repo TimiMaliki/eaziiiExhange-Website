@@ -66,7 +66,7 @@ const Contact = () => {
         </Text>
       </Box>
 
-      <Box height="400px" marginTop="6rem"
+      <Box height="500px" marginTop="6rem"
       >
         <Text
           fontSize="3xl"
@@ -77,10 +77,10 @@ const Contact = () => {
           Send us an email
         </Text>
         <Text>
-          <Input placeholder="Name" marginBottom="2rem" variant='filled'></Input>
-          <Input placeholder="Email" marginBottom="2rem" variant='filled'></Input>
-          <Input placeholder="Subject" marginBottom="2rem" variant='filled'></Input>
-          <Input placeholder="Description.." marginBottom="2rem" variant='filled'></Input>
+          <Input placeholder="Name" marginBottom="2rem" variant='flushed' size='lg'></Input>
+          <Input placeholder="Email" marginBottom="2rem" variant='flushed' size='lg'></Input>
+          <Input placeholder="Subject" marginBottom="2rem" variant='flushed' size='lg'></Input>
+          <Input placeholder="Description.." marginBottom="2rem" variant='flushed' size='lg'></Input>
         </Text>
 
         <Button
