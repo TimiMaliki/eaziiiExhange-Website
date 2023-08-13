@@ -20,7 +20,6 @@ const Navbar = () => {
       textAlign="center"
       justify="space-between"
       position="sticky"
-      borderRadius="14px"
     >
       <Heading as="h1" cursor="pointer">
         EaziExchange

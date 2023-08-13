@@ -4,14 +4,14 @@ import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const GiftCards = () => {
   return (
-    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" minHeight="100vh">
+    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" minHeight="120vh">
       <img
         src={walletCoin}
         width="100%"
         height="200px"
         style={{ borderRadius: "14px", marginTop:"6rem"}}
       />
-      <Box height="400px"  textAlign="center" marginTop="2rem">
+      <Box height="490px"  textAlign="center" marginTop="2rem">
         <Text
           as="h2"
           textAlign="center"

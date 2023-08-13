@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
       </Box>
 
-      <Box h="400px">
+      <Box h="200px">
         <img src={whatsapp} width="90%"></img>
       </Box>
     </SimpleGrid>
