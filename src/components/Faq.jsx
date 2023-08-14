@@ -11,7 +11,7 @@ import {
 const Faq = () => {
   return (
     <SimpleGrid  alignItems="center" textAlign="center">
-    <Accordion allowToggle marginTop="7rem" padding={{base:"0px 50px" , md:"0px 50px" ,lg:"0px 100px"}} height="400px" 
+    <Accordion allowToggle marginTop="7rem" padding={{base:"0px 50px" , md:"0px 50px" ,lg:"0px 100px"}} height="560px" 
     alignItems="center" textAlign="center"
     >
       <AccordionItem
