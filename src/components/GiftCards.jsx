@@ -4,7 +4,8 @@ import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const GiftCards = () => {
   return (
-    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" minHeight="120vh">
+    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" minHeight="120vh"
+   >
       <img
         src={walletCoin}
         width="100%"

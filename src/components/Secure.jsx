@@ -6,15 +6,24 @@ import {
   Text,
   SimpleGrid,
 } from "@chakra-ui/react";
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 import chat from "../assets/Imagies/chat.jpg";
 import secure from "../assets/Imagies/secure.jpg";
 import friend from "../assets/Imagies/friend.jpg";
 import rate from "../assets/Imagies/rate.jpg";
 
 const Secure = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
   
-    <SimpleGrid minChildWidth="250px" p="0px 40px" gap="1rem" marginTop="4rem">
+    <SimpleGrid minChildWidth="250px" p="0px 40px" gap="1rem" marginTop="4rem"
+    data-aos="fade-up"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="600">
       <Card textAlign="center" placeContent="center" position="absolue">
         <CardHeader
           borderRadius="3rem"

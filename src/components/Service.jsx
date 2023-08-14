@@ -4,7 +4,8 @@ import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const Service = () => {
   return (
-    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" marginTop="-4rem">
+    <SimpleGrid minChildWidth="250px" padding="0px 30px" gap="3rem" bg="gray.100" marginTop="-4rem"
+    >
       <img
         src={coin}
         width="100%"

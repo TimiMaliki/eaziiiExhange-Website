@@ -6,13 +6,21 @@ import {
   Text,
   SimpleGrid,
 } from "@chakra-ui/react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import giftCard from "../assets/Imagies/giftcards.jpg";
 import rich from "../assets/Imagies/rich.jpg";
 import pay from "../assets/Imagies/pay.jpg";
 
 const Offers = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <SimpleGrid minChildWidth="250px" p="0px 40px" gap="1rem" marginTop="4rem">
+    <SimpleGrid minChildWidth="250px" p="0px 40px" gap="1rem" marginTop="4rem"
+    data-aos="fade-down"
+    data-aos-duration="4000">
       <Card textAlign="center" placeContent="center" position="absolue">
         <CardHeader
           borderRadius="3rem"

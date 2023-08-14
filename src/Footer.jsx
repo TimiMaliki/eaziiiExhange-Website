@@ -1,10 +1,18 @@
 import { SimpleGrid, Box, Heading, Text } from "@chakra-ui/react";
 import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import {FaInstagram, FaWhatsapp} from 'react-icons/fa'
 
 const Footer = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <SimpleGrid minChildWidth="250px" bg="black" spacing={2}>
+    <SimpleGrid minChildWidth="250px" bg="black" spacing={2}
+    data-aos="fade-up"
+      data-aos-duration="600">
       <Box height="300px" textAlign="center" alignItems="center" marginTop="4rem">
         <Heading textColor="white" fontSize="4xl" fontWeight="bold">About</Heading>
         <Text color="gray.100">
